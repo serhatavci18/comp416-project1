@@ -37,6 +37,7 @@ public class Client {
                         out.println(xGuess);
                         out.println(yGuess);
 
+                        System.out.println(in.readLine());
 
                     } catch (NumberFormatException e) {
                         System.out.println("Invalid input. Please enter two valid integer values separated by a comma.");
@@ -45,6 +46,7 @@ public class Client {
                     System.out.println("Invalid input format. Please enter two integer values separated by a comma.");
                 }
             }
+            System.out.println(in.readLine());
 
         }
     }
